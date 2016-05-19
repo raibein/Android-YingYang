@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ashColor">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Splashing App"
+        android:textColor="#f71313"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/img_dime"
+        android:layout_gravity="center"
+        android:src="@drawable/home_splash"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:textColor="#fcdf06"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textColorHint="@color/inputColor"
+        android:textSize="@dimen/txt_size"
+        android:layout_gravity="center"
+        android:id="@+id/activity_login_email"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/inputColor"
+        android:textSize="@dimen/txt_size"
+        android:layout_gravity="center"
+        android:password="true"
+        android:id="@+id/activity_login_password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Now"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#ff8c00"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/activity_login_login_now"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:backgroundTint="#ff8c00"
+        android:id="@+id/activity_login_register"/>
+
+</LinearLayout>
